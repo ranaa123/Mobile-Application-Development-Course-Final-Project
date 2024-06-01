@@ -3,6 +3,9 @@ import '../models/category.dart';
 import '../models/meal.dart';
 import '../services/api_service.dart';
 
+/*MealProvider sınıfı: State management ve API çağrılarını yönetir.
+fetchCategories, fetchMealsByCategory, fetchMealDetails yöntemleri: Kategorileri ve yemek tariflerini API'dan çeker.*/
+
 class MealProvider with ChangeNotifier {
   List<Category> _categories = [];
   List<Meal> _meals = [];

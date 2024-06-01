@@ -2,6 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/meal_provider.dart';
 
+
+/*CategoryScreen sınıfı: Kategorileri listeler.
+initState yöntemi: Ekran yüklendiğinde kategorileri çeker.
+_fetchCategories yöntemi: API'dan kategorileri çeker.
+GridView.builder: Kategorileri grid şeklinde listeler.*/
+
+
 class CategoryScreen extends StatefulWidget {
   const CategoryScreen({Key? key}) : super(key: key);
 

@@ -1,3 +1,6 @@
+/*Category sınıfı: Yemek kategorilerini temsil eder.
+fromJson fabrika yöntemi: JSON verisini Category nesnesine dönüştürür.*/
+
 class Category {
   final String id;
   final String name;

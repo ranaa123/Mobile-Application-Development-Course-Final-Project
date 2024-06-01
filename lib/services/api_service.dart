@@ -3,6 +3,9 @@ import 'package:http/http.dart' as http;
 import '../models/category.dart';
 import '../models/meal.dart';
 
+/* ApiService sınıfı: TheMealDB API'sine yapılan çağrıları yönetir.
+fetchCategories, fetchMealsByCategory, fetchMealDetails yöntemleri: API'dan kategorileri ve yemek tariflerini çeker.*/
+
 class ApiService {
   static const String _baseUrl = 'https://www.themealdb.com/api/json/v1/1';
 

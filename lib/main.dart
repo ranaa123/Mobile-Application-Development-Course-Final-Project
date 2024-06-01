@@ -5,6 +5,14 @@ import 'screens/category_screen.dart';
 import 'screens/meal_list_screen.dart';
 import 'screens/meal_detail_screen.dart';
 
+
+
+/*main fonksiyonu: Uygulamayı başlatır.
+MyApp sınıfı: Uygulamanın temel yapı taşını oluşturur ve gerekli rotaları tanımlar.
+MultiProvider: State management için Provider kullanılır.
+Rotalar: / rotası CategoryScreen'i, /meals rotası MealListScreen'i ve /mealDetail rotası MealDetailScreen'i gösterir.*/
+
+
 void main() {
   runApp(const MyApp());
 }

@@ -1,3 +1,6 @@
+/* Meal sınıfı: Yemek tariflerini temsil eder.
+fromJson fabrika yöntemi: JSON verisini Meal nesnesine dönüştürür. Malzemeleri ve ölçüleri alır.*/
+
 class Meal {
   final String id;
   final String name;
